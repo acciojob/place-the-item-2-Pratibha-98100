@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:flex;
+}
+
+.container < div{
+	border: 2px solid black;
+	color:pink;
+}
+
+.div1{
+	 background-color:green;
+}
+
+.div2{
+	 background-color:red;
+}
+
+.div3{
+	 background-color:blue;
+}
+.div1,.div2,.div3{
+	border: 2px solid;
+	height: 50px;
+    width:50px;
+}
+
+.holder{
+justify-content:center;
+	
+  flex-wrap: wrap;
+}
